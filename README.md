@@ -15,19 +15,30 @@ Designed for managing tasks with a modern UI and drag-and-drop support.
 - **State Management:** React (Zustand / Context API)
 
 ## 📖 Setup Instructions
-```sh
 # 1️⃣ Clone the repo
+
+```sh
 git clone https://github.com/your-username/kanban-board.git
 cd kanban-board
+```
+
 
 # 2️⃣ Install dependencies
+```sh
 npm install
+```
 
 # 3️⃣ Configure `.env` and start the database
+```sh
 npx prisma migrate dev --name init
+```
 
 # 4️⃣ Run the development server
+```sh
 npm run dev
+```
 
 # 5️⃣ Open your browser and visit
+```sh
 http://localhost:3000
+```
