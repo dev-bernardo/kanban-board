@@ -1,7 +1,13 @@
-export default function Home() {
+import React from "react";
+import Board from "@/components/Board";
+
+const Home: React.FC = () => {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold">Initial setup is Running! 🚀</h1>
+    <main className="min-h-screen bg-blue-200 p-8">
+      <h1 className="text-3xl font-bold mb-4">Kanban Board</h1>
+      <Board />
     </main>
   );
-}
+};
+
+export default Home;
